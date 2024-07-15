@@ -1,3 +1,4 @@
+"use strict"; // treat all JS code as newer Version
 /* ----------------------------------------------------
 Discussing About "let" Variables 
 ------------------------------------------------------*/
@@ -24,9 +25,11 @@ console.log(typeof myText);
 
 
 /* ----------------------------------------------------
-Discussing About "const" Variable 
+Discussing About "const" 
 ------------------------------------------------------*/
+// const is immutable
 const PI = 3.1416; // Declare & Assigning all together
 console.log(PI)
 console.log(typeof PI)
+
 
