@@ -20,3 +20,22 @@ let state = null;
 let person = undefined;
 
 console.table([(typeof tk), (typeof district), (typeof isOpen), (typeof state), (typeof person)]);
+
+
+let bigInt = 3402834012840128402148n;
+console.log( typeof bigInt);
+
+let id = Symbol('123');
+console.log(typeof id);
+
+/* Non Primitive Data Type*/
+
+// Array => Object
+// Object => Object
+// Function => Function Object
+
+let myFunc = function (){
+    console.log("Hello World");
+}
+
+console.log( typeof myFunc)

@@ -11,3 +11,8 @@ console.log( undefined >= 0);
 
 console.log("Abc" < "ABc"); //  Letter Order Fact & also Case Sensitive Fact.
 console.log("Hiron" < "hiron");
+
+
+let bigInt = 3402834012840128402148n;
+
+console.log( typeof bigInt);
