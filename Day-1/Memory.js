@@ -15,5 +15,6 @@ let userOne =
 }
 let userTwo = userOne; // Reference
 
-userTwo.name = "Ray"
+userTwo.name = "Partho"
 console.log(userOne.name);
+
