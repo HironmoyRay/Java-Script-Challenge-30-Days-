@@ -7,7 +7,7 @@ console.log(subSports);
 /* slice method */
 const myName = "Hironmy"
 console.log(myName.length);
-const sliceName = myName.slice(-1,4); // Neg Value Allowed
+const sliceName = myName.slice(3,4); // Neg Value Allowed
 // for negVal => start = ( negVal + length );
 // after that start less than Zero , then stat = 0;
 // or start greater than length , then empty array returned.
